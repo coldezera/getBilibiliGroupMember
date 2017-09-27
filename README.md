@@ -3,4 +3,9 @@
 
 这个是一个爬取Steam Bilibili组的人的封禁情况的程序
 
-* 支持版本:
+* 支持版本:Python3.6
+
+###需要安装的库 scrapy requests
+
+
+
