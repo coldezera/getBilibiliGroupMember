@@ -37,3 +37,27 @@ nexturl = 'http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key={
 __csvname.csv你可以随意输入你想要的文件名__，它是爬取下来的信息的保存文件
 接下来就是等待程序爬去完毕。因为信息太多，爬取时间很长（__反正我是爬了差不多3天才爬完的。。。__）
 
+## 数据抓取完毕
+
+数据将会被保存.csv后缀的excel表格中去，通过 __anabiligroup/biligroupana.py__ 去统计需要求得的数据，
+然后通过 __biligroupmatlop.py|__ __csgo_image.py|__ __private_iamge.py|__ __VacandGameban.py__ 使得数据可视化（饼状图）
+
+### 结果图
+
+#### ①
+ 
+ ![](https://github.com/coldezera/getBilibiliGroupMember/blob/master/resultimage/Profiles.jpg)
+     
+#### ②
+
+![](https://github.com/coldezera/getBilibiliGroupMember/blob/master/resultimage/CSGO.jpg)
+
+#### ③
+
+![](https://github.com/coldezera/getBilibiliGroupMember/blob/master/resultimage/Private.jpg)
+
+#### ④
+
+![](https://github.com/coldezera/getBilibiliGroupMember/blob/master/resultimage/Ban.jpg)
+
+
