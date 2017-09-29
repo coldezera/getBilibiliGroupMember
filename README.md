@@ -36,3 +36,5 @@ nexturl = 'http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key={
     scrapy crawl bili -o csvname.csv
 __csvname.csv你可以随意输入你想要的文件名__，它是爬取下来的信息的保存文件
 接下来就是等待程序爬去完毕。因为信息太多，爬取时间很长（__反正我是爬了差不多3天才爬完的。。。__）
+
+![][resultimage/Ban.png]
