@@ -8,13 +8,14 @@
 * **支持版本:Python3.6**
 * **需要安装的库 scrapy requests numpy pandas matplotlib**
 * **你已经申请了一个可用的Steam Web Api Key**
-
+ 
 ### 如何申请一个Steam Web Api Key
 你必须有一个自己的域名，然后[点击这里](http://steamcommunity.com/dev),进去登录自己的Steam账号输入按照提示输入你的域名获取你的Key
 
 ****
 ## 下载完毕运行之前
-将你申请得到的Key填入到代码中去，有__两处__地方需要填写，分别是
+
+将你申请得到的Key填入到代码中去，有 __两处__ 地方需要填写，分别是
 
 ### 1. bilibiligroup\spiders\bili.py line 98
 ```python
