@@ -1,6 +1,8 @@
 # getBilibiliGroupMember
 抓取bilibili的Steam用户组的所有组员的游戏封禁情况
 
+__(程序存在一定的BUG，在结果图后列出)__
+
 ****
 
 ## 下载之前请确保满足以下条件
@@ -51,8 +53,8 @@ __csvname.csv你可以随意输入你想要的文件名__，它是爬取下来�
     user_url: 64位链接
     PrivateProfile: 个人主页私密与否 1: 个人资料私密  0: 个人资料公开
     CSGO: 是否拥有CSGO这款游戏 1: 拥有  0: 没有  NaN(空): 因为个人资料私密，无法知道是否拥有
-    VACBan: 是否被VACBan 1: 有  2: 没有
-    GameBan: 是否被GameBan 1: 有  2: 没有
+    VACBan: 是否被VACBan 1: 有  0: 没有
+    GameBan: 是否被GameBan 1: 有  0: 没有
 
 ****
 
@@ -78,5 +80,14 @@ __csvname.csv你可以随意输入你想要的文件名__，它是爬取下来�
 #### ④
 
 ![](https://github.com/coldezera/getBilibiliGroupMember/blob/master/resultimage/Ban.jpg)
+
+****
+## 目前存在的BUG：
+
+requests.get在一定时间内调用的Api过于频繁，导致了10054和10060的错误，远程主机强迫关闭了链接或者长时间未应答使得页面读取失败。丢失数据。目前正在编写代理IP池，估计建立的稳定的代理IP之后，变着代理IP去爬取，应该就不会触发10054或10060的错误了
+
+（第一次写README，肯定有不足之处，还请指出 QQ：616775154）
+
+
 
 
