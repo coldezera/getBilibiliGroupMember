@@ -19,12 +19,12 @@ __(程序存在一定的BUG，在结果图后列出)__
 
 将你申请得到的Key填入到代码中去，有 __两处__ 地方需要填写，分别是
 
-### 1. bilibiligroup\spiders\bili.py line 98
+### 1. bilibiligroup\bilibiligroup\spiders\bili.py line 98
 ```python
 get64url = 'http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key={Your Steam API key}&vanityurl={}'# {Your Steam API key}中间填入你的key，两个花括号要删掉
 ```
 
-### 2. bilibiligroup\spiders\bili.py line 150
+### 2. bilibiligroup\bilibiligroup\spiders\bili.py line 150
 ```python
 nexturl = 'http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key={Your Steam API key}&steamid={}&format=json'# {Your Steam API key}中间填入你的key，两个花括号要删掉
 ```
