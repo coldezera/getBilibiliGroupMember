@@ -63,6 +63,12 @@ __csvname.csv你可以随意输入你想要的文件名__，它是爬取下来�
 数据将会被保存.csv后缀的excel表格中去，通过 __anabiligroup/biligroupana.py__ 去统计需要求得的数据，
 然后通过 __biligroupmatlop.py|__ __csgo_image.py|__ __private_iamge.py|__ __VacandGameban.py__ 使得数据可视化（饼状图）
 
+__进行数据分析之前，将anabiligroup/biligroupana.py line 3 的路径改为存放数据的路径__
+
+```python
+data = pd.read_csv('E://spider-progress//bilibiligroup//biliuser.csv')
+```
+
 ### 结果图
 
 #### ①
